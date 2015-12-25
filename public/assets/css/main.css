@@ -1,6 +1,6 @@
 
 body {
-  background-color: #ED7476; }
+  background-color: #74D7ED; }
   body div#content {
     margin: 200 100 100;
     padding: 35px;
@@ -41,5 +41,7 @@ div#menu {
         text-decoration: underline; }
       div#menu ul li a:active {
         text-decoration: underline; }
+      div#menu ul li a:visited {
+        color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

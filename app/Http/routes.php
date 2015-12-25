@@ -15,6 +15,27 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/resume', function () {
+    return view('resume');
+});
+
+Route::get('/research', function(){
+    return view('research');
+});
+
+Route::get('/board', function(){
+    return view('board');
+});
+
+Route::get('articles', function(){
+    return view('articles');
+});
+
+Route::get('album', function(){
+    return view('album');
+});
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

@@ -6,15 +6,14 @@
     <body>
 
     <div id="menu">
-        <img class="headline" src={{asset('assets/img/headline.jpg')}} />
-        <img class="logo" src={{asset('assets/img/tituschenlogo.png')}} />
+        <a href="/"><img class="headline" src={{asset('assets/img/headline.jpg')}} /></a>
+        <a href="/"><img class="logo" src={{asset('assets/img/tituschenlogo.png')}} /></a>
         <ul>
-            <li><a>學經歷</a></li>
-            <li><a>研究成果</a></li>
-            <li><a>個人</a></li>
-            <li><a>留言</a></li>
-            <li><a>照片</a></li>
-            <li><a>文章</a></li>
+            <li><a href="/resume">學經歷</a></li>
+            <li><a href="/research">研究成果</a></li>
+            <li><a href="/board">留言</a></li>
+            <li><a href="/album">照片</a></li>
+            <li><a href="/articles">文章</a></li>
         </ul>
     </div>
 
