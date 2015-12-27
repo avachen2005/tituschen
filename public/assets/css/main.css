@@ -23,7 +23,8 @@ div#menu {
     padding: 15px;
     float: right; }
   div#menu img.logo {
-    height: 100px; }
+    height: 100px;
+    padding-top: 20px; }
   div#menu ul {
     float: right;
     margin-right: 35px;
@@ -37,11 +38,17 @@ div#menu {
       display: inline-block;
       padding-right: 10px;
       cursor: pointer; }
-      div#menu ul li a:hover {
-        text-decoration: underline; }
-      div#menu ul li a:active {
-        text-decoration: underline; }
+      div#menu ul li a:link {
+        color: #fff;
+        text-decoration: none; }
       div#menu ul li a:visited {
-        color: #fff; }
+        color: #fff;
+        text-decoration: none; }
+      div#menu ul li a:active {
+        color: #fff;
+        text-decoration: none; }
+      div#menu ul li a:hover {
+        color: #fff;
+        text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

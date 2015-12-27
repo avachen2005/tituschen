@@ -29,6 +29,7 @@ div#menu {
     }
     img.logo {
         height: 100px;
+        padding-top: 20px;
     }
     ul {
         float: right;
@@ -43,14 +44,21 @@ div#menu {
             display: inline-block;
             padding-right: 10px;
             cursor: pointer;
-            a:hover {
-                text-decoration: underline;
-            }
-            a:active {
-                text-decoration: underline;
+            a:link {
+                color: #fff;
+                text-decoration: none;
             }
             a:visited {
                 color: #fff;
+                text-decoration: none;
+            }
+            a:active {
+                color: #fff;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #fff;
+                text-decoration: underline;
             }
         }
     }
